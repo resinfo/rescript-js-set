@@ -1,0 +1,22 @@
+{
+  "name": "rescript-js-set",
+  "version": "1.0.0",
+  "sources": [{
+    "dir": "src",
+    "subdirs": true
+  }, {
+    "dir": "test",
+    "type": "dev"
+  }],
+  "package-specs": {
+    "in-source": true,
+    "module": "commonjs",
+    "suffix": ".cjs"
+  },
+  "bs-dependencies": [
+    "rescript-js-iterator"
+  ],
+  "bs-dev-dependencies": [
+    "rescript-ava"
+  ]
+}
