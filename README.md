@@ -4,14 +4,16 @@ Rescript JS Set is a [ReScript](https://rescript-lang.org/) library that provide
 
 ## Installation
 
+This package relies on the `rescript-js-iterator` package for `Iterator` bindings.
 Using `yarn` or `npm`:
 
 ```bash
-yarn add rescript-js-set
-npm install --save rescript-js-set
+yarn add rescript-js-set rescript-js-iterator
+
+npm install --save rescript-js-set rescript-js-iterator
 ```
 
-This package relies on the `rescript-js-iterator` package for `Iterator` bindings. In your `bsconfig.json`, add:
+Update your `bsconfig.json`:
 
 ```json
 {
