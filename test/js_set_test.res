@@ -121,7 +121,7 @@ test("Set.keys(set)", t => {
 })
 
 test("Set.entries(set)", t => {
-  let set = Set.fromEntries(["a", "b", "c"])
+  let set = Set.fromEntries(["a", "b"])->Set.add("c")
 
   let iterator = set->Set.entries
 

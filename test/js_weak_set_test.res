@@ -12,8 +12,8 @@ test("Set.fromEntries(entries)", t => {
 
 test("Set.add(t, value) and Set.has(t, value)", t => {
   let value1 = {"hello": "world"}
-  let value2 = {"hello": "12345"}
-  let set = Set.fromEntries([value1, value2])
+  let value2 = {"hello": 12345}
+  let set = Set.fromEntries([value1])->Set.add(value2)
 
   t->true_(set->Set.has(value1), ())
   t->true_(set->Set.has(value2), ())

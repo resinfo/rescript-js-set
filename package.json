@@ -8,12 +8,14 @@
   "description": "ReScript bindings to the native JavaScript Set data type",
   "files": [
     "src/js_set.res",
+    "src/js_weak_set.res",
     "bsconfig.json"
   ],
   "keywords": [
     "rescript",
     "bindings",
-    "set"
+    "set",
+    "weakset"
   ],
   "devDependencies": {
     "ava": "3.15.0",

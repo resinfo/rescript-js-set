@@ -22,12 +22,9 @@ Ava.test("Set.add(t, value) and Set.has(t, value)", (function (t) {
           hello: "world"
         };
         var value2 = {
-          hello: "12345"
+          hello: 12345
         };
-        var set = new WeakSet([
-              value1,
-              value2
-            ]);
+        var set = new WeakSet([value1]).add(value2);
         Ava.true_(t, set.has(value1), undefined, undefined);
         return Ava.true_(t, set.has(value2), undefined, undefined);
       }));

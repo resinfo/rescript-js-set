@@ -118,10 +118,9 @@ Ava.test("Set.keys(set)", (function (t) {
 
 Ava.test("Set.entries(set)", (function (t) {
         var set = new Set([
-              "a",
-              "b",
-              "c"
-            ]);
+                "a",
+                "b"
+              ]).add("c");
         var iterator = set.entries();
         var current = iterator.next();
         Ava.true_(t, Caml_obj.caml_equal(current.value, [
