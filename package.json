@@ -1,6 +1,6 @@
 {
   "name": "rescript-js-set",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/resinfo/rescript-js-set.git",
   "author": "Oliver Fencott <oliverfencott@gmail.com>",
